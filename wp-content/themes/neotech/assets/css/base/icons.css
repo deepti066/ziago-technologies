@@ -1,0 +1,3874 @@
+@charset "UTF-8";
+/* Text meant only for screen readers. */
+/* ===== Start ICONS CSS ===== */
+@font-face {
+  font-family: "neotech-icon";
+  src: url("./assets/fonts/icons/neotech-icon-1.0.8.eot");
+  src: url("./assets/fonts/icons/neotech-icon-1.0.8.eot?#iefix") format("eot"), url("./assets/fonts/icons/neotech-icon-1.0.8.woff2") format("woff2"), url("./assets/fonts/icons/neotech-icon-1.0.8.woff") format("woff"), url("./assets/fonts/icons/neotech-icon-1.0.8.ttf") format("truetype"), url("./assets/fonts/icons/neotech-icon-1.0.8.svg#neotech-icon-1.0.8") format("svg");
+}
+[class*=neotech-icon-] {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.neotech-icon-arrow-l:before {
+  content: "";
+}
+
+.neotech-icon-arrow-r:before {
+  content: "";
+}
+
+.neotech-icon-brain:before {
+  content: "";
+}
+
+.neotech-icon-breadcrumb:before {
+  content: "";
+}
+
+.neotech-icon-bullet-list-line:before {
+  content: "";
+}
+
+.neotech-icon-calendar:before {
+  content: "";
+}
+
+.neotech-icon-check-mark:before {
+  content: "";
+}
+
+.neotech-icon-check-mark1:before {
+  content: "";
+}
+
+.neotech-icon-clock:before {
+  content: "";
+}
+
+.neotech-icon-computer:before {
+  content: "";
+}
+
+.neotech-icon-computer1:before {
+  content: "";
+}
+
+.neotech-icon-development:before {
+  content: "";
+}
+
+.neotech-icon-dot-rectangle:before {
+  content: "";
+}
+
+.neotech-icon-filters:before {
+  content: "";
+}
+
+.neotech-icon-flower:before {
+  content: "";
+}
+
+.neotech-icon-guide1:before {
+  content: "";
+}
+
+.neotech-icon-headset:before {
+  content: "";
+}
+
+.neotech-icon-hosting:before {
+  content: "";
+}
+
+.neotech-icon-information1:before {
+  content: "";
+}
+
+.neotech-icon-instagram-o:before {
+  content: "";
+}
+
+.neotech-icon-instructions:before {
+  content: "";
+}
+
+.neotech-icon-it-service:before {
+  content: "";
+}
+
+.neotech-icon-large-o:before {
+  content: "";
+}
+
+.neotech-icon-leadership:before {
+  content: "";
+}
+
+.neotech-icon-list-ul:before {
+  content: "";
+}
+
+.neotech-icon-map-location:before {
+  content: "";
+}
+
+.neotech-icon-movies:before {
+  content: "";
+}
+
+.neotech-icon-phone-call:before {
+  content: "";
+}
+
+.neotech-icon-play-fill:before {
+  content: "";
+}
+
+.neotech-icon-play:before {
+  content: "";
+}
+
+.neotech-icon-quicksupport:before {
+  content: "";
+}
+
+.neotech-icon-quote1:before {
+  content: "";
+}
+
+.neotech-icon-quote2:before {
+  content: "";
+}
+
+.neotech-icon-rating-hand:before {
+  content: "";
+}
+
+.neotech-icon-reply-line:before {
+  content: "";
+}
+
+.neotech-icon-send:before {
+  content: "";
+}
+
+.neotech-icon-server:before {
+  content: "";
+}
+
+.neotech-icon-setting:before {
+  content: "";
+}
+
+.neotech-icon-settings:before {
+  content: "";
+}
+
+.neotech-icon-settings1:before {
+  content: "";
+}
+
+.neotech-icon-share-all:before {
+  content: "";
+}
+
+.neotech-icon-shopping-bag:before {
+  content: "";
+}
+
+.neotech-icon-shoppingcart-o:before {
+  content: "";
+}
+
+.neotech-icon-sliders-v:before {
+  content: "";
+}
+
+.neotech-icon-square-o:before {
+  content: "";
+}
+
+.neotech-icon-step:before {
+  content: "";
+}
+
+.neotech-icon-support:before {
+  content: "";
+}
+
+.neotech-icon-tags:before {
+  content: "";
+}
+
+.neotech-icon-technology:before {
+  content: "";
+}
+
+.neotech-icon-th-large-o:before {
+  content: "";
+}
+
+.neotech-icon-two-line:before {
+  content: "";
+}
+
+.neotech-icon-user1:before {
+  content: "";
+}
+
+.neotech-icon-video-call:before {
+  content: "";
+}
+
+.neotech-icon-adobe:before {
+  content: "";
+}
+
+.neotech-icon-amazon:before {
+  content: "";
+}
+
+.neotech-icon-android:before {
+  content: "";
+}
+
+.neotech-icon-angular:before {
+  content: "";
+}
+
+.neotech-icon-apper:before {
+  content: "";
+}
+
+.neotech-icon-apple:before {
+  content: "";
+}
+
+.neotech-icon-atlassian:before {
+  content: "";
+}
+
+.neotech-icon-behance:before {
+  content: "";
+}
+
+.neotech-icon-bitbucket:before {
+  content: "";
+}
+
+.neotech-icon-bitcoin:before {
+  content: "";
+}
+
+.neotech-icon-bity:before {
+  content: "";
+}
+
+.neotech-icon-bluetooth:before {
+  content: "";
+}
+
+.neotech-icon-btc:before {
+  content: "";
+}
+
+.neotech-icon-centos:before {
+  content: "";
+}
+
+.neotech-icon-chrome:before {
+  content: "";
+}
+
+.neotech-icon-codepen:before {
+  content: "";
+}
+
+.neotech-icon-cpanel:before {
+  content: "";
+}
+
+.neotech-icon-discord:before {
+  content: "";
+}
+
+.neotech-icon-dochub:before {
+  content: "";
+}
+
+.neotech-icon-docker:before {
+  content: "";
+}
+
+.neotech-icon-dribbble:before {
+  content: "";
+}
+
+.neotech-icon-dropbox:before {
+  content: "";
+}
+
+.neotech-icon-drupal:before {
+  content: "";
+}
+
+.neotech-icon-ebay:before {
+  content: "";
+}
+
+.neotech-icon-facebook-f:before {
+  content: "";
+}
+
+.neotech-icon-facebook-o:before {
+  content: "";
+}
+
+.neotech-icon-facebook:before {
+  content: "";
+}
+
+.neotech-icon-figma:before {
+  content: "";
+}
+
+.neotech-icon-firefox:before {
+  content: "";
+}
+
+.neotech-icon-google-plus:before {
+  content: "";
+}
+
+.neotech-icon-google:before {
+  content: "";
+}
+
+.neotech-icon-grunt:before {
+  content: "";
+}
+
+.neotech-icon-gulp:before {
+  content: "";
+}
+
+.neotech-icon-html5:before {
+  content: "";
+}
+
+.neotech-icon-joomla:before {
+  content: "";
+}
+
+.neotech-icon-link-brand:before {
+  content: "";
+}
+
+.neotech-icon-linkedin-in:before {
+  content: "";
+}
+
+.neotech-icon-linkedin:before {
+  content: "";
+}
+
+.neotech-icon-mailchimp:before {
+  content: "";
+}
+
+.neotech-icon-opencart:before {
+  content: "";
+}
+
+.neotech-icon-paypal:before {
+  content: "";
+}
+
+.neotech-icon-pinterest-p:before {
+  content: "";
+}
+
+.neotech-icon-reddit:before {
+  content: "";
+}
+
+.neotech-icon-skype:before {
+  content: "";
+}
+
+.neotech-icon-slack:before {
+  content: "";
+}
+
+.neotech-icon-snapchat:before {
+  content: "";
+}
+
+.neotech-icon-spotify:before {
+  content: "";
+}
+
+.neotech-icon-trello:before {
+  content: "";
+}
+
+.neotech-icon-twitter:before {
+  content: "";
+}
+
+.neotech-icon-vimeo:before {
+  content: "";
+}
+
+.neotech-icon-whatsapp:before {
+  content: "";
+}
+
+.neotech-icon-wordpress:before {
+  content: "";
+}
+
+.neotech-icon-yoast:before {
+  content: "";
+}
+
+.neotech-icon-youtube:before {
+  content: "";
+}
+
+.neotech-icon-360:before {
+  content: "";
+}
+
+.neotech-icon-Clip-path-group:before {
+  content: "";
+}
+
+.neotech-icon-Mail:before {
+  content: "";
+}
+
+.neotech-icon-Online_Support:before {
+  content: "";
+}
+
+.neotech-icon-arrow-down:before {
+  content: "";
+}
+
+.neotech-icon-arrow-left:before {
+  content: "";
+}
+
+.neotech-icon-arrow-right:before {
+  content: "";
+}
+
+.neotech-icon-arrow-up:before {
+  content: "";
+}
+
+.neotech-icon-bars:before {
+  content: "";
+}
+
+.neotech-icon-bullet-list-line2:before {
+  content: "";
+}
+
+.neotech-icon-caret-down:before {
+  content: "";
+}
+
+.neotech-icon-caret-left:before {
+  content: "";
+}
+
+.neotech-icon-caret-right:before {
+  content: "";
+}
+
+.neotech-icon-caret-up:before {
+  content: "";
+}
+
+.neotech-icon-cart-1:before {
+  content: "";
+}
+
+.neotech-icon-cart-empty:before {
+  content: "";
+}
+
+.neotech-icon-cart:before {
+  content: "";
+}
+
+.neotech-icon-check-square:before {
+  content: "";
+}
+
+.neotech-icon-checkmark:before {
+  content: "";
+}
+
+.neotech-icon-chevron-down:before {
+  content: "";
+}
+
+.neotech-icon-chevron-left:before {
+  content: "";
+}
+
+.neotech-icon-chevron-right:before {
+  content: "";
+}
+
+.neotech-icon-chevron-up:before {
+  content: "";
+}
+
+.neotech-icon-circle:before {
+  content: "";
+}
+
+.neotech-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.neotech-icon-comment:before {
+  content: "";
+}
+
+.neotech-icon-comments:before {
+  content: "";
+}
+
+.neotech-icon-compare:before {
+  content: "";
+}
+
+.neotech-icon-credit-card:before {
+  content: "";
+}
+
+.neotech-icon-delivery-truck:before {
+  content: "";
+}
+
+.neotech-icon-dot-circle:before {
+  content: "";
+}
+
+.neotech-icon-edit:before {
+  content: "";
+}
+
+.neotech-icon-envelope:before {
+  content: "";
+}
+
+.neotech-icon-expand-alt:before {
+  content: "";
+}
+
+.neotech-icon-external-link-alt:before {
+  content: "";
+}
+
+.neotech-icon-file-alt:before {
+  content: "";
+}
+
+.neotech-icon-file-archive:before {
+  content: "";
+}
+
+.neotech-icon-filter:before {
+  content: "";
+}
+
+.neotech-icon-fire1:before {
+  content: "";
+}
+
+.neotech-icon-folder-open:before {
+  content: "";
+}
+
+.neotech-icon-folder:before {
+  content: "";
+}
+
+.neotech-icon-frown:before {
+  content: "";
+}
+
+.neotech-icon-gift:before {
+  content: "";
+}
+
+.neotech-icon-grid-view-line:before {
+  content: "";
+}
+
+.neotech-icon-grip-horizontal:before {
+  content: "";
+}
+
+.neotech-icon-heart-fill:before {
+  content: "";
+}
+
+.neotech-icon-heart:before {
+  content: "";
+}
+
+.neotech-icon-history:before {
+  content: "";
+}
+
+.neotech-icon-home:before {
+  content: "";
+}
+
+.neotech-icon-info-circle:before {
+  content: "";
+}
+
+.neotech-icon-instagram:before {
+  content: "";
+}
+
+.neotech-icon-level-up-alt:before {
+  content: "";
+}
+
+.neotech-icon-list:before {
+  content: "";
+}
+
+.neotech-icon-map-marker-check:before {
+  content: "";
+}
+
+.neotech-icon-meh:before {
+  content: "";
+}
+
+.neotech-icon-minus-circle:before {
+  content: "";
+}
+
+.neotech-icon-minus:before {
+  content: "";
+}
+
+.neotech-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.neotech-icon-money-bill:before {
+  content: "";
+}
+
+.neotech-icon-money:before {
+  content: "";
+}
+
+.neotech-icon-paper-plane:before {
+  content: "";
+}
+
+.neotech-icon-pencil-alt:before {
+  content: "";
+}
+
+.neotech-icon-plus-circle:before {
+  content: "";
+}
+
+.neotech-icon-plus:before {
+  content: "";
+}
+
+.neotech-icon-quickview:before {
+  content: "";
+}
+
+.neotech-icon-random:before {
+  content: "";
+}
+
+.neotech-icon-rating-stroke:before {
+  content: "";
+}
+
+.neotech-icon-rating:before {
+  content: "";
+}
+
+.neotech-icon-repeat:before {
+  content: "";
+}
+
+.neotech-icon-reply-all:before {
+  content: "";
+}
+
+.neotech-icon-reply:before {
+  content: "";
+}
+
+.neotech-icon-search-plus:before {
+  content: "";
+}
+
+.neotech-icon-search:before {
+  content: "";
+}
+
+.neotech-icon-shield-check:before {
+  content: "";
+}
+
+.neotech-icon-shopping-basket:before {
+  content: "";
+}
+
+.neotech-icon-shopping-cart:before {
+  content: "";
+}
+
+.neotech-icon-sign-out-alt:before {
+  content: "";
+}
+
+.neotech-icon-smile:before {
+  content: "";
+}
+
+.neotech-icon-spinner:before {
+  content: "";
+}
+
+.neotech-icon-square:before {
+  content: "";
+}
+
+.neotech-icon-star:before {
+  content: "";
+}
+
+.neotech-icon-store:before {
+  content: "";
+}
+
+.neotech-icon-sync:before {
+  content: "";
+}
+
+.neotech-icon-sync_alt:before {
+  content: "";
+}
+
+.neotech-icon-tachometer-alt:before {
+  content: "";
+}
+
+.neotech-icon-th-large:before {
+  content: "";
+}
+
+.neotech-icon-th-list:before {
+  content: "";
+}
+
+.neotech-icon-thumbtack:before {
+  content: "";
+}
+
+.neotech-icon-ticket:before {
+  content: "";
+}
+
+.neotech-icon-times-circle:before {
+  content: "";
+}
+
+.neotech-icon-times:before {
+  content: "";
+}
+
+.neotech-icon-trophy-alt:before {
+  content: "";
+}
+
+.neotech-icon-truck1:before {
+  content: "";
+}
+
+.neotech-icon-user-headset:before {
+  content: "";
+}
+
+.neotech-icon-user-shield:before {
+  content: "";
+}
+
+.neotech-icon-user:before {
+  content: "";
+}
+
+.neotech-icon-video:before {
+  content: "";
+}
+
+.neotech-icon-wishlist-empty:before {
+  content: "";
+}
+
+.neotech-icon-wishlist:before {
+  content: "";
+}
+
+/* ===== End ICONS CSS ===== */
+.neotech-social ul {
+  margin: 0;
+  list-style-type: none;
+}
+.neotech-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 1;
+}
+.neotech-social ul li:last-child {
+  margin-right: 0;
+}
+.neotech-social ul li a:before {
+  position: relative;
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.neotech-social ul li a[href*=twitter]:before {
+  content: "";
+  color: #1DA1F2;
+}
+.neotech-social ul li a[href*=instagram]:before {
+  content: "";
+  color: #262626;
+}
+.neotech-social ul li a[href*=docker]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=dochub]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=yelp]:before {
+  content: "";
+  color: #af0606;
+}
+.neotech-social ul li a[href*=flickr]:before {
+  content: "";
+  color: #0063dc;
+}
+.neotech-social ul li a[href*=github]:before {
+  content: "";
+  color: #333333;
+}
+.neotech-social ul li a[href*=dribbble]:before {
+  content: "";
+  color: #ea4c89;
+}
+.neotech-social ul li a[href*=wordpress]:before {
+  content: "";
+  color: #21759b;
+}
+.neotech-social ul li a[href*=tumblr]:before {
+  content: "";
+  color: #35465c;
+}
+.neotech-social ul li a[href*=angular]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=atlassian]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=snapchat]:before {
+  content: "";
+  color: #fffc00;
+}
+.neotech-social ul li a[href*=apper]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=codepen]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=gulp]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=cpanel]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=skype]:before {
+  content: "";
+  color: #00AFF0;
+}
+.neotech-social ul li a[href*=reddit]:before {
+  content: "";
+  color: #ff4500;
+}
+.neotech-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=slack]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=amazon]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=android]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=grunt]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=firefox]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=adobe]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=behance]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=dropbox]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=facebook]:before {
+  content: "";
+  color: #3b5998;
+}
+.neotech-social ul li a[href*=linkedin]:before {
+  content: "";
+  color: #0077b5;
+}
+.neotech-social ul li a[href*=paypal]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=trello]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.neotech-social ul li a[href*=youtube]:before {
+  content: "";
+  color: #cd201f;
+}
+.neotech-social ul li a[href*=apple]:before {
+  content: "";
+  color: #999999;
+}
+.neotech-social ul li a[href*=bitbucket]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=bitcoin]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=bluetooth]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=bity]:before {
+  content: "";
+}
+.neotech-social ul li a[href*="google/chrome"]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=drupal]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=html5]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=mailchimp]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=jenkins]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=spotify]:before {
+  content: "";
+  color: #2ebd59;
+}
+.neotech-social ul li a[href*=ebay]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=telegram]:before {
+  content: "";
+  color: #2CA5E0;
+}
+.neotech-social ul li a[href*=yoast]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=btc-e]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=discord]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=google]:before {
+  content: "";
+  color: #dd4b39;
+}
+.neotech-social ul li a[href*=google-plus]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=figma]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=joomla]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=opencart]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=pinterest]:before {
+  content: "";
+  color: #bd081c;
+}
+.neotech-social ul li a[href*=vimeo]:before {
+  content: "";
+  color: #1ab7ea;
+}
+.neotech-social ul li a[href*=centos]:before {
+  content: "";
+}
+.neotech-social ul li a[href*=whatsapp]:before {
+  content: "";
+}
+
+#comments .commentlist .bypostauthor > .comment-body cite::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+#comments .comment-meta a.comment-date::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+#comments .reply a::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -2px;
+}
+#comments .reply a.comment-edit-link::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-pagination .page-numbers.prev::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+.woocommerce-pagination .page-numbers.next::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+
+#respond #cancel-comment-reply-link::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+}
+
+.sticky .entry-title::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.editor-styles-wrapper blockquote,
+.hentry .entry-content blockquote {
+  clear: both;
+}
+.editor-styles-wrapper blockquote:before,
+.hentry .entry-content blockquote:before {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  color: var(--e-global-color-primary);
+  line-height: inherit;
+  vertical-align: top;
+}
+
+button.loading,
+input[type=button].loading,
+input[type=reset].loading,
+input[type=submit].loading,
+.button.loading {
+  position: relative;
+}
+button.loading::before,
+input[type=button].loading::before,
+input[type=reset].loading::before,
+input[type=submit].loading::before,
+.button.loading::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+a[class*=product_type_].loading,
+.added_to_cart.loading {
+  position: relative;
+}
+a[class*=product_type_].loading:after,
+.added_to_cart.loading:after {
+  content: "";
+}
+a[class*=product_type_].loading:before,
+.added_to_cart.loading:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.shop-action .blockUI.blockOverlay:before,
+.shop-action .loader:before {
+  opacity: 1 !important;
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 14px;
+  font-size: 0.875rem;
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-action .blockUI.blockOverlay {
+  opacity: 1 !important;
+  overflow: hidden;
+  background-image: none !important;
+  background: #fff !important;
+}
+
+.main-navigtion ul li a::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.mobile-navigation ul li button::after, .mobile-navigation-categories ul li button::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.mobile-navigation ul li button.toggled-on::after, .mobile-navigation-categories ul li button.toggled-on::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_search:not(.widget_block) form::before,
+.widget_product_search form::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+form.wp-block-search::before {
+  display: none;
+}
+form.wp-block-search .wp-block-search__inside-wrapper {
+  position: relative;
+}
+form.wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: var(--e-global-color-secondary);
+  font-size: 18px;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.single-product .pswp__button {
+  background-color: transparent;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  text-indent: -999px;
+  overflow: hidden;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  display: block;
+  line-height: 20px;
+  text-indent: 0;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger img {
+  display: none !important;
+}
+.single-product div.product .woocommerce-product-gallery .swiper-button-prev:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .woocommerce-product-gallery .swiper-button-next:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .entry-summary .compare:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.stock::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.5407797364em;
+  margin-top: -4px;
+}
+.stock.in-stock::before {
+  content: "";
+}
+
+a.remove {
+  display: block;
+  width: 1.618034em;
+  height: 1.618034em;
+  line-height: 1.618;
+  font-weight: var(--e-global-typography-text-font-weight);
+  text-indent: -9999px;
+  position: relative;
+}
+a.remove::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--e-global-color-lighter);
+  line-height: 1.618;
+  text-indent: 0;
+  text-align: center;
+}
+
+.woocommerce-shipping-calculator > p:first-child a::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.3342202552em;
+}
+
+.blockUI::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  font-size: 1.875rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.woocommerce-pagination .next,
+.woocommerce-pagination .prev {
+  display: inline-block;
+  position: relative;
+}
+
+#shipping_method li > label {
+  cursor: pointer;
+  padding-right: 20px;
+  position: relative;
+}
+#shipping_method li > label::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#shipping_method li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+#shipping_method li > input[type=radio]:first-child:focus {
+  background-color: #f1f1f1;
+  color: #21759b;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: var(--e-global-typography-check-typo(secondary)-font-family);
+  font-weight: var(--e-global-typography-check-typo(secondary)-font-weight);
+  text-transform: var(--e-global-typography-check-typo(secondary)-text-transform);
+  font-style: var(--e-global-typography-check-typo(secondary)-font-style);
+  text-decoration: var(--e-global-typography-check-typo(secondary)-text-decoration);
+  line-height: var(--e-global-typography-check-typo(secondary)-line-height);
+  letter-spacing: var(--e-global-typography-check-typo(secondary)-letter-spacing);
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#shipping_method li > input[type=radio]:first-child:checked + label::after {
+  content: "";
+}
+#shipping_method li > input[type=hidden]:first-child + label {
+  padding-right: 0;
+}
+#shipping_method li > input[type=hidden]:first-child + label::after {
+  content: none;
+}
+
+#payment .payment_methods li > label {
+  cursor: pointer;
+}
+#payment .payment_methods li > label::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+  transition: color, ease, 0.2s;
+}
+#payment .payment_methods li > input[type=radio]:first-child {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+#payment .payment_methods li > input[type=radio]:first-child:focus {
+  background-color: #f1f1f1;
+  color: #21759b;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-family: var(--e-global-typography-check-typo(secondary)-font-family);
+  font-weight: var(--e-global-typography-check-typo(secondary)-font-weight);
+  text-transform: var(--e-global-typography-check-typo(secondary)-text-transform);
+  font-style: var(--e-global-typography-check-typo(secondary)-font-style);
+  text-decoration: var(--e-global-typography-check-typo(secondary)-text-decoration);
+  line-height: var(--e-global-typography-check-typo(secondary)-line-height);
+  letter-spacing: var(--e-global-typography-check-typo(secondary)-letter-spacing);
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#payment .payment_methods li > input[type=radio]:first-child:checked + label::before {
+  content: "";
+}
+
+.woocommerce-password-strength::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+.woocommerce-password-strength.strong::after {
+  content: "";
+}
+.woocommerce-password-strength.good::after {
+  content: "";
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active a::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li a::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: 1.618;
+  margin-left: 0.5407797364em;
+  width: 1.41577975em;
+  text-align: right;
+  float: right;
+  opacity: 0.25;
+}
+.woocommerce-MyAccount-navigation ul li a:hover::before {
+  opacity: 1;
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--dashboard a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--orders a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--downloads a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-address a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payment-methods a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--edit-account a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--customer-logout a::before {
+  content: "";
+}
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--subscriptions a::before {
+  content: "";
+}
+
+.my_account_orders .button.view::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+p.order-again .button::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+.woocommerce-MyAccount-downloads .button::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+
+.demo_store::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+#reviews .commentlist li p.meta .verified {
+  display: inline-block;
+  height: 1.41577975em;
+  width: 1.41577975em;
+  position: relative;
+  text-indent: -9999px;
+}
+#reviews .commentlist li p.meta .verified::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  color: #0f834d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.41577975em;
+  height: 1.41577975em;
+  text-indent: 0;
+  text-align: center;
+  line-height: 1.618034em;
+}
+
+/**
+ * Composite Products
+ */
+.single-product div.product .component_selections .clear_component_options::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+/**
+ * Mix and Match
+ */
+.cart .mnm_table_item .mnm_table_item_indent::before,
+.shop_table .mnm_table_item .mnm_table_item_indent::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  transform: rotate(90deg);
+  margin-right: 0.3819660059em;
+  opacity: 0.25;
+}
+
+/**
+ * Quick view
+ */
+.quick-view-button::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.6180339845em;
+}
+
+/**
+ * Ship multiple addresses
+ */
+.woocommerce-page .ship_address .gift-form label::after,
+.woocommerce-page .no_shipping_address .gift-form label::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5407797364em;
+}
+.woocommerce-page .ship_address .modify-address-button::before,
+.woocommerce-page .no_shipping_address .modify-address-button::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+.woocommerce-page .addresses + .addresses header.title a::before {
+  content: "";
+}
+
+/**
+ * Product reviews pro
+ */
+.woocommerce .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before,
+.woocommerce-page .woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link--contributions a::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/**
+ * Variation Swatches
+ */
+a#variations_clear::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+/**
+ * Wishlists
+ */
+.wl-add-link::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.button.wl-create-new::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 0.5407797364em;
+}
+
+.site-header-cart .cart-contents::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-neotech-vertical-menu .vertical-navigation .neotech-icon {
+  position: relative;
+}
+.elementor-widget-neotech-vertical-menu .vertical-navigation .neotech-icon::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 12px;
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+  .main-navigation ul.menu > li.menu-item-has-children > a:after, .main-navigation ul.menu > li.page_item_has_children > a:after, .main-navigation ul.menu > li.has-mega-menu > a:after,
+.main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 6px;
+    margin-bottom: 5px;
+    font-size: 8px;
+    font-size: 0.5rem;
+    font-weight: 700;
+  }
+  .gecko .main-navigation ul.menu > li.menu-item-has-children > a:after, .gecko .main-navigation ul.menu > li.page_item_has_children > a:after, .gecko .main-navigation ul.menu > li.has-mega-menu > a:after,
+.gecko .main-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.gecko .main-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.gecko .main-navigation ul.nav-menu > li.has-mega-menu > a:after {
+    margin-bottom: 0;
+    vertical-align: sub;
+  }
+
+  .header-side .main-navigation ul.menu > li.menu-item-has-children > a::after, .header-side .main-navigation ul.menu > li.page_item_has_children > a::after, .header-side .main-navigation ul.menu > li.has-mega-menu > a::after,
+.header-side .main-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.header-side .main-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.header-side .main-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: 1em;
+    margin-right: -25px;
+  }
+
+  .vertical-navigation ul.menu > li.menu-item-has-children > a::after, .vertical-navigation ul.menu > li.page_item_has_children > a::after, .vertical-navigation ul.menu > li.has-mega-menu > a::after,
+.vertical-navigation ul.nav-menu > li.menu-item-has-children > a::after,
+.vertical-navigation ul.nav-menu > li.page_item_has_children > a::after,
+.vertical-navigation ul.nav-menu > li.has-mega-menu > a::after {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-left: auto;
+    float: right;
+    font-size: 9px;
+    font-size: 0.5625rem;
+  }
+
+  .main-navigation ul.menu ul li.menu-item-has-children > a::after, .main-navigation ul.menu ul li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    float: right;
+    margin-left: 10px;
+    line-height: 1.8;
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .demo_store a.woocommerce-store-notice__dismiss-link::before {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    margin-right: 0.3342202552em;
+  }
+
+  .addresses header.title a {
+    display: block;
+    width: 1em;
+    height: 1em;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0.875em;
+    margin-top: 0.6180339845em;
+  }
+  .addresses header.title a::before {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    line-height: 1.618;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  /**
+   * Wishlists
+   */
+  #wl-wrapper .wl-tabs > li.active::after {
+    font-family: "neotech-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    height: 1em;
+    width: 1em;
+    margin-top: -0.5em;
+  }
+}
+ul.wishlist_table.mobile .remove_from_wishlist:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.slick-prev:after,
+.slick-next:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.slick-prev:before {
+  content: "";
+}
+[dir=rtl] .slick-prev:before {
+  content: "";
+}
+.woocommerce-product-gallery-vertical .slick-prev:before {
+  content: "";
+}
+.woocommerce-product-gallery-horizontal .slick-prev:before {
+  content: "";
+}
+
+.slick-next:before {
+  content: "";
+}
+[dir=rtl] .slick-next:before {
+  content: "";
+}
+.woocommerce-product-gallery-vertical .slick-next:before {
+  content: "";
+}
+.woocommerce-product-gallery-horizontal .slick-next:before {
+  content: "";
+}
+
+.arrow-style-3 .slick-prev:before {
+  content: "";
+}
+[dir=rtl] .arrow-style-3 .slick-prev:before {
+  content: "";
+}
+.arrow-style-3 .slick-next:before {
+  content: "";
+}
+[dir=rtl] .arrow-style-3 .slick-next:before {
+  content: "";
+}
+
+body.loading {
+  position: relative;
+}
+body.loading::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: block;
+  z-index: 999999;
+  color: #fff;
+}
+body.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999998;
+}
+
+.woocommerce-cart .cart-empty:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 164px;
+  color: var(--e-global-color-lighter);
+  display: block;
+  margin-bottom: 50px;
+}
+.woocommerce-cart .wc-block-components-totals-coupon__form button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-cart .wc-block-components-totals-coupon__form button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.widget_product_categories .icon-minus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 0;
+  z-index: 9;
+}
+.widget_product_categories .icon-minus:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+.widget_product_categories .icon-plus {
+  float: right;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 0;
+  z-index: 9;
+}
+.widget_product_categories .icon-plus:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+
+ul.products-list li.product-list .product-caption a[class*=product_type_]:after,
+ul.products-list li.product-list .product-caption .woosc-btn:after,
+ul.products-list li.product-list .product-caption .woosw-btn:after,
+ul.products-list li.product-list .product-caption .woosq-btn:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_] {
+  font-size: 14px;
+  font-size: 0.875rem;
+  width: auto;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_]:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_].loading {
+  position: relative;
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_].loading:after {
+  content: "";
+}
+ul.products-list li.product-list .product-caption a[class*=product_type_].loading:after {
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  padding: 5px;
+}
+ul.products-list li.product-list .product-caption .woosw-btn:after {
+  content: "";
+}
+ul.products-list li.product-list .product-caption .woosw-btn.woosw-adding:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+}
+ul.products-list li.product-list .product-caption .woosc-btn:before {
+  content: "";
+}
+ul.products-list li.product-list .product-caption .woosq-btn:before {
+  content: "";
+}
+
+ul.products li.product .product-block a[class*=product_type_]:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+ul.products li.product .product-block a[class*=product_type_].loading:after {
+  content: "";
+}
+ul.products li.product .product-block a[class*=product_type_].loading:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  font-size: 20px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.shop-action .woosc-btn:after,
+.shop-action .woosq-btn:after,
+.shop-action .woosw-btn:after,
+.shop-action a[class*=product_type_]:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.shop-action .woosc-btn.loading,
+.shop-action .woosq-btn.loading,
+.shop-action .woosw-btn.loading,
+.shop-action a[class*=product_type_].loading {
+  position: relative;
+}
+.shop-action .woosc-btn.loading:after,
+.shop-action .woosq-btn.loading:after,
+.shop-action .woosw-btn.loading:after,
+.shop-action a[class*=product_type_].loading:after {
+  content: "";
+}
+.shop-action .woosc-btn.loading:before,
+.shop-action .woosq-btn.loading:before,
+.shop-action .woosw-btn.loading:before,
+.shop-action a[class*=product_type_].loading:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  line-height: 20px;
+  font-size: 14px !important;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  margin: 0;
+}
+.shop-action .woosc-btn.woosw-adding:after,
+.shop-action .woosq-btn.woosw-adding:after,
+.shop-action .woosw-btn.woosw-adding:after,
+.shop-action a[class*=product_type_].woosw-adding:after {
+  display: none !important;
+}
+.shop-action .woosc-btn.woosw-adding:before,
+.shop-action .woosq-btn.woosw-adding:before,
+.shop-action .woosw-btn.woosw-adding:before,
+.shop-action a[class*=product_type_].woosw-adding:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 100%;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  position: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(0);
+  background-color: transparent;
+}
+.shop-action .woosw-btn:after {
+  content: "";
+}
+.shop-action .woosw-btn.woosw-adding:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  line-height: inherit;
+  content: "" !important;
+  background-color: transparent;
+}
+.shop-action .woosc-btn:after {
+  content: "";
+}
+.shop-action .woosq-btn:after {
+  content: "";
+}
+.shop-action a[class*=product_type_]:before {
+  content: "";
+}
+.shop-action a[class*=product_type_].loading {
+  position: relative;
+}
+.shop-action a[class*=product_type_].loading:after {
+  content: "";
+}
+.shop-action a[class*=product_type_].loading:before {
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+}
+
+.woocommerce-widget-layered-nav-list li a:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: var(--e-global-color-border);
+  cursor: pointer;
+  margin-right: 13px;
+}
+.woocommerce-widget-layered-nav-list li.chosen > a:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 19px;
+  font-size: 1.1875rem;
+  color: var(--e-global-color-border);
+  cursor: pointer;
+  margin-right: 12px;
+  margin-bottom: 2px;
+}
+
+.woocommerce .active .toggled-on:has(span.neotech_title_filter) .neotech_title_filter:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+
+.woocommerce .widget-title:has(span.neotech_title_filter) .neotech_title_filter:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+
+.single-product div.product .entry-summary .woosc-btn:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  line-height: inherit;
+  font-weight: 600;
+}
+.single-product div.product .entry-summary .woosc-btn.loading {
+  position: relative;
+}
+.single-product div.product .entry-summary .woosc-btn.loading::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+.single-product div.product .entry-summary .woosw-btn:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product div.product .entry-summary .woosw-btn.loading {
+  position: relative;
+}
+.single-product div.product .entry-summary .woosw-btn.loading::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  animation: fa-spin 0.75s linear infinite;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  display: block;
+}
+
+a.read-more:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+}
+
+.elementor-widget-neotech-language-switcher.language-switcher-style-mobile .neotech-language-switcher .language-switcher-head:after {
+  position: relative;
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  line-height: 12px;
+}
+
+.loading-quick-shop .product-transition::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.search-by-category .input-dropdown-inner > a:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.popup-navigation ul.menu > li.menu-item-has-children > a:after, .popup-navigation ul.menu > li.page_item_has_children > a:after, .popup-navigation ul.menu > li.has-mega-menu > a:after,
+.popup-navigation ul.nav-menu > li.menu-item-has-children > a:after,
+.popup-navigation ul.nav-menu > li.page_item_has_children > a:after,
+.popup-navigation ul.nav-menu > li.has-mega-menu > a:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 0.5em;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.popup-navigation ul.menu ul li.menu-item-has-children > a::after, .popup-navigation ul.menu ul li.page_item_has_children > a::after,
+.popup-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.popup-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  float: right;
+  margin-left: 0.5em;
+  line-height: 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.neotech-elementor-single-product .shop-button a[class*=product_type_]:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-left: 5px;
+  margin-top: 3px;
+  float: right;
+  transition: all 0.3s ease;
+}
+
+.elementor-widget-neotech-image-gallery .column-item a:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosw-list .woosw-content-mid-notice:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 164px;
+  color: var(--e-global-color-lighter);
+  display: block;
+  margin-bottom: 50px;
+}
+
+.woosw-list .woosw-item--actions .add_to_cart a.button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-list .woosw-item--actions .add_to_cart a.button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-list .woosw-copy-btn button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-list .woosw-copy-btn button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+@keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-webkit-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-o-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+@-ms-keyframes mf-spin-fast {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  to {
+    -webkit-transform: rotate(1800deg);
+    transform: rotate(1800deg);
+  }
+}
+.elementor-widget-neotech-search .widget.widget_product_search button[type=submit]:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 0;
+}
+
+.woocommerce-tabs.product-accordions .accordion-head:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-tabs.product-accordions .accordion-head:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#comments .comment-form .form-submit .submit:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-opal-image-hotspots .elementor-tab-title:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.elementor-widget-opal-image-hotspots .elementor-tab-title.elementor-active:before {
+  content: "";
+}
+
+.scrollup .scrollup-icon:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-woocommerce-breadcrumb .woocommerce-breadcrumb > a:first-of-type:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-right: 5px;
+  top: -2px;
+  position: relative;
+  font-size: 16px;
+  opacity: 0.85;
+  display: none;
+}
+
+.star-rating {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+.star-rating:before {
+  content: "" " " "" " " "" " " "" " " "";
+}
+.star-rating span::before {
+  content: "" " " "" " " "" " " "" " " "";
+}
+
+.elementor-testimonial-item-wrapper .layout-4 .caption-top:before {
+  border: 1px solid var(--e-global-color-border);
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  animation-timing-function: linear;
+  z-index: -1;
+  transform: scale(1);
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+  top: 6px;
+  right: 0;
+  bottom: 0;
+  left: 8px;
+}
+
+form.woocommerce-form-track-order button:after {
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  padding-left: 7px;
+}
+
+.pbr-social-share .bo-social-facebook i.opal-icon-facebook-f:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .bo-social-twitter i.opal-icon-twitter:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .bo-social-youtube i.opal-icon-youtube:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .bo-social-instagram i.opal-icon-instagram:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+}
+.pbr-social-share .add_to_cart .button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.carousehover a:hover:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 30px;
+}
+
+.shipping_class:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-right: 10px;
+}
+
+.flex-direction-nav .flex-nav-prev a:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.flex-direction-nav .flex-nav-next a:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.time-sale .deal-text:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 35px;
+  font-size: 2.1875rem;
+}
+
+.single_add_to_cart_button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+table.woocommerce-grouped-product-list .woocommerce-grouped-product-list-item__quantity a.button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+table.woocommerce-grouped-product-list .woocommerce-grouped-product-list-item__quantity a.button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+@media (max-width: 767px) {
+  .nav-previous .nav-content {
+    padding-left: 0;
+  }
+}
+.nav-previous .nav-content:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  left: 10px;
+}
+
+@media (max-width: 767px) {
+  .nav-next .nav-content {
+    padding-right: 0;
+  }
+}
+.nav-next .nav-content:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  right: 10px;
+}
+
+.neotech-icon-left-arrow:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.neotech-icon-right-arrow:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#reviews .comment-form .form-submit button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-widget-portfolio-text-scrolling .elementor-scrolling-item:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-banner-wrap-title .elementor-banner-button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  margin-top: -3px;
+  margin-left: 8px;
+}
+
+.neotech-image-hotspots-tooltips-link .neotech-image-hotspots-icon:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.single-product .summary .inventory_status:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product .summary .inventory_status.out-stock:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: -5px;
+}
+.single-product .pswp .pswp__button--arrow--left:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-product .pswp .pswp__button--arrow--right:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.neotech-product-pagination:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.single-content .custom-list li:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.mfp-woosq .mfp-arrow-left:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.mfp-woosq .mfp-arrow-right:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.sizechart-button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosw-popup.woosw-show .woosw-popup-inner .woosw-popup-content a.button:before,
+.woosc-area-open-table .woosw-popup-inner .woosw-popup-content a.button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosw-popup.woosw-show .woosw-popup-inner .woosw-popup-content a.button:after,
+.woosc-area-open-table .woosw-popup-inner .woosw-popup-content a.button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woosc-area.woosc-area-open-table .woosc-table-inner a.button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woosc-area.woosc-area-open-table .woosc-table-inner a.button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.wp-block-woocommerce-cart-totals-block .wp-block-woocommerce-proceed-to-checkout-block a:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.wp-block-woocommerce-cart-totals-block .wp-block-woocommerce-proceed-to-checkout-block a:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.neotech-image-hotspots-main-icons .neotech-image-hotspots-icon:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+#woosq-popup .product .slick-slider .slick-prev:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+#woosq-popup .product .slick-slider .slick-next:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.entry-meta-top .post-author:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.entry-meta-top .posted-on:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-components-totals-coupon__form button:before,
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-checkout__actions_row button:before,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-components-totals-coupon__form button:before,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-checkout__actions_row button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-components-totals-coupon__form button:after,
+.woocommerce-checkout .wc-block-components-totals-coupon__content .wc-block-checkout__actions_row button:after,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-components-totals-coupon__form button:after,
+.woocommerce-checkout .wc-block-checkout__form .wc-block-checkout__actions_row button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.site-header-cart-side .widget_shopping_cart .woocommerce-mini-cart__buttons a.button:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.site-header-cart-side .widget_shopping_cart .woocommerce-mini-cart__buttons a.button:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.team .single-content .custom-list li:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-right: 10px;
+}
+
+.elementor-swiper-button-next.elementor-lightbox-prevent-close::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.elementor-swiper-button-prev.elementor-lightbox-prevent-close::before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-pagination-wrap a.products-load-more-btn:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.woocommerce-pagination-wrap a.products-load-more-btn:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.single-portfolio .nav-links .nav-previous:before {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+.single-portfolio .nav-links .nav-next:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+.woocommerce-product-search button[type=submit]:after {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  content: "";
+}
+
+/*# sourceMappingURL=icons.css.map */

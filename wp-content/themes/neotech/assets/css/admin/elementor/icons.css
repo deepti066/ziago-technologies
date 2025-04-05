@@ -1,0 +1,842 @@
+
+@font-face {
+  font-family: "neotech-icon";
+  src: url("../../../fonts/icons/neotech-icon-1.0.7.eot");
+  src: url("../../../fonts/icons/neotech-icon-1.0.7.eot?#iefix") format("eot"), url("../../../fonts/icons/neotech-icon-1.0.7.woff2") format("woff2"), url("../../../fonts/icons/neotech-icon-1.0.7.woff") format("woff"), url("../../../fonts/icons/neotech-icon-1.0.7.ttf") format("truetype"), url("../../../fonts/icons/neotech-icon-1.0.7.svg#neotech-icon-1.0.7") format("svg");
+}
+[class*=neotech-icon-] {
+  font-family: "neotech-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.neotech-icon-arrow-l:before {
+  content: "";
+}
+
+.neotech-icon-arrow-r:before {
+  content: "";
+}
+
+.neotech-icon-brain:before {
+  content: "";
+}
+
+.neotech-icon-breadcrumb:before {
+  content: "";
+}
+
+.neotech-icon-bullet-list-line:before {
+  content: "";
+}
+
+.neotech-icon-calendar:before {
+  content: "";
+}
+
+.neotech-icon-check-mark:before {
+  content: "";
+}
+
+.neotech-icon-check-mark1:before {
+  content: "";
+}
+
+.neotech-icon-clock:before {
+  content: "";
+}
+
+.neotech-icon-computer:before {
+  content: "";
+}
+
+.neotech-icon-computer1:before {
+  content: "";
+}
+
+.neotech-icon-development:before {
+  content: "";
+}
+
+.neotech-icon-dot-rectangle:before {
+  content: "";
+}
+
+.neotech-icon-filters:before {
+  content: "";
+}
+
+.neotech-icon-flower:before {
+  content: "";
+}
+
+.neotech-icon-guide1:before {
+  content: "";
+}
+
+.neotech-icon-headset:before {
+  content: "";
+}
+
+.neotech-icon-hosting:before {
+  content: "";
+}
+
+.neotech-icon-information1:before {
+  content: "";
+}
+
+.neotech-icon-instagram-o:before {
+  content: "";
+}
+
+.neotech-icon-instructions:before {
+  content: "";
+}
+
+.neotech-icon-it-service:before {
+  content: "";
+}
+
+.neotech-icon-large-o:before {
+  content: "";
+}
+
+.neotech-icon-leadership:before {
+  content: "";
+}
+
+.neotech-icon-list-ul:before {
+  content: "";
+}
+
+.neotech-icon-map-location:before {
+  content: "";
+}
+
+.neotech-icon-movies:before {
+  content: "";
+}
+
+.neotech-icon-phone-call:before {
+  content: "";
+}
+
+.neotech-icon-play-fill:before {
+  content: "";
+}
+
+.neotech-icon-play:before {
+  content: "";
+}
+
+.neotech-icon-quicksupport:before {
+  content: "";
+}
+
+.neotech-icon-quote1:before {
+  content: "";
+}
+
+.neotech-icon-quote2:before {
+  content: "";
+}
+
+.neotech-icon-rating-hand:before {
+  content: "";
+}
+
+.neotech-icon-reply-line:before {
+  content: "";
+}
+
+.neotech-icon-send:before {
+  content: "";
+}
+
+.neotech-icon-server:before {
+  content: "";
+}
+
+.neotech-icon-setting:before {
+  content: "";
+}
+
+.neotech-icon-settings:before {
+  content: "";
+}
+
+.neotech-icon-settings1:before {
+  content: "";
+}
+
+.neotech-icon-share-all:before {
+  content: "";
+}
+
+.neotech-icon-shopping-bag:before {
+  content: "";
+}
+
+.neotech-icon-shoppingcart-o:before {
+  content: "";
+}
+
+.neotech-icon-sliders-v:before {
+  content: "";
+}
+
+.neotech-icon-square-o:before {
+  content: "";
+}
+
+.neotech-icon-step:before {
+  content: "";
+}
+
+.neotech-icon-support:before {
+  content: "";
+}
+
+.neotech-icon-tags:before {
+  content: "";
+}
+
+.neotech-icon-technology:before {
+  content: "";
+}
+
+.neotech-icon-th-large-o:before {
+  content: "";
+}
+
+.neotech-icon-two-line:before {
+  content: "";
+}
+
+.neotech-icon-user1:before {
+  content: "";
+}
+
+.neotech-icon-video-call:before {
+  content: "";
+}
+
+.neotech-icon-adobe:before {
+  content: "";
+}
+
+.neotech-icon-amazon:before {
+  content: "";
+}
+
+.neotech-icon-android:before {
+  content: "";
+}
+
+.neotech-icon-angular:before {
+  content: "";
+}
+
+.neotech-icon-apper:before {
+  content: "";
+}
+
+.neotech-icon-apple:before {
+  content: "";
+}
+
+.neotech-icon-atlassian:before {
+  content: "";
+}
+
+.neotech-icon-behance:before {
+  content: "";
+}
+
+.neotech-icon-bitbucket:before {
+  content: "";
+}
+
+.neotech-icon-bitcoin:before {
+  content: "";
+}
+
+.neotech-icon-bity:before {
+  content: "";
+}
+
+.neotech-icon-bluetooth:before {
+  content: "";
+}
+
+.neotech-icon-btc:before {
+  content: "";
+}
+
+.neotech-icon-centos:before {
+  content: "";
+}
+
+.neotech-icon-chrome:before {
+  content: "";
+}
+
+.neotech-icon-codepen:before {
+  content: "";
+}
+
+.neotech-icon-cpanel:before {
+  content: "";
+}
+
+.neotech-icon-discord:before {
+  content: "";
+}
+
+.neotech-icon-dochub:before {
+  content: "";
+}
+
+.neotech-icon-docker:before {
+  content: "";
+}
+
+.neotech-icon-dribbble:before {
+  content: "";
+}
+
+.neotech-icon-dropbox:before {
+  content: "";
+}
+
+.neotech-icon-drupal:before {
+  content: "";
+}
+
+.neotech-icon-ebay:before {
+  content: "";
+}
+
+.neotech-icon-facebook-f:before {
+  content: "";
+}
+
+.neotech-icon-facebook-o:before {
+  content: "";
+}
+
+.neotech-icon-facebook:before {
+  content: "";
+}
+
+.neotech-icon-figma:before {
+  content: "";
+}
+
+.neotech-icon-firefox:before {
+  content: "";
+}
+
+.neotech-icon-google-plus:before {
+  content: "";
+}
+
+.neotech-icon-google:before {
+  content: "";
+}
+
+.neotech-icon-grunt:before {
+  content: "";
+}
+
+.neotech-icon-gulp:before {
+  content: "";
+}
+
+.neotech-icon-html5:before {
+  content: "";
+}
+
+.neotech-icon-joomla:before {
+  content: "";
+}
+
+.neotech-icon-link-brand:before {
+  content: "";
+}
+
+.neotech-icon-linkedin-in:before {
+  content: "";
+}
+
+.neotech-icon-linkedin:before {
+  content: "";
+}
+
+.neotech-icon-mailchimp:before {
+  content: "";
+}
+
+.neotech-icon-opencart:before {
+  content: "";
+}
+
+.neotech-icon-paypal:before {
+  content: "";
+}
+
+.neotech-icon-pinterest-p:before {
+  content: "";
+}
+
+.neotech-icon-reddit:before {
+  content: "";
+}
+
+.neotech-icon-skype:before {
+  content: "";
+}
+
+.neotech-icon-slack:before {
+  content: "";
+}
+
+.neotech-icon-snapchat:before {
+  content: "";
+}
+
+.neotech-icon-spotify:before {
+  content: "";
+}
+
+.neotech-icon-trello:before {
+  content: "";
+}
+
+.neotech-icon-twitter:before {
+  content: "";
+}
+
+.neotech-icon-vimeo:before {
+  content: "";
+}
+
+.neotech-icon-whatsapp:before {
+  content: "";
+}
+
+.neotech-icon-wordpress:before {
+  content: "";
+}
+
+.neotech-icon-yoast:before {
+  content: "";
+}
+
+.neotech-icon-youtube:before {
+  content: "";
+}
+
+.neotech-icon-360:before {
+  content: "";
+}
+
+.neotech-icon-Clip-path-group:before {
+  content: "";
+}
+
+.neotech-icon-Mail:before {
+  content: "";
+}
+
+.neotech-icon-Online_Support:before {
+  content: "";
+}
+
+.neotech-icon-arrow-down:before {
+  content: "";
+}
+
+.neotech-icon-arrow-left:before {
+  content: "";
+}
+
+.neotech-icon-arrow-right:before {
+  content: "";
+}
+
+.neotech-icon-arrow-up:before {
+  content: "";
+}
+
+.neotech-icon-bars:before {
+  content: "";
+}
+
+.neotech-icon-bullet-list-line2:before {
+  content: "";
+}
+
+.neotech-icon-caret-down:before {
+  content: "";
+}
+
+.neotech-icon-caret-left:before {
+  content: "";
+}
+
+.neotech-icon-caret-right:before {
+  content: "";
+}
+
+.neotech-icon-caret-up:before {
+  content: "";
+}
+
+.neotech-icon-cart-1:before {
+  content: "";
+}
+
+.neotech-icon-cart-empty:before {
+  content: "";
+}
+
+.neotech-icon-cart:before {
+  content: "";
+}
+
+.neotech-icon-check-square:before {
+  content: "";
+}
+
+.neotech-icon-checkmark:before {
+  content: "";
+}
+
+.neotech-icon-chevron-down:before {
+  content: "";
+}
+
+.neotech-icon-chevron-left:before {
+  content: "";
+}
+
+.neotech-icon-chevron-right:before {
+  content: "";
+}
+
+.neotech-icon-chevron-up:before {
+  content: "";
+}
+
+.neotech-icon-circle:before {
+  content: "";
+}
+
+.neotech-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.neotech-icon-comment:before {
+  content: "";
+}
+
+.neotech-icon-comments:before {
+  content: "";
+}
+
+.neotech-icon-compare:before {
+  content: "";
+}
+
+.neotech-icon-credit-card:before {
+  content: "";
+}
+
+.neotech-icon-delivery-truck:before {
+  content: "";
+}
+
+.neotech-icon-dot-circle:before {
+  content: "";
+}
+
+.neotech-icon-edit:before {
+  content: "";
+}
+
+.neotech-icon-envelope:before {
+  content: "";
+}
+
+.neotech-icon-expand-alt:before {
+  content: "";
+}
+
+.neotech-icon-external-link-alt:before {
+  content: "";
+}
+
+.neotech-icon-file-alt:before {
+  content: "";
+}
+
+.neotech-icon-file-archive:before {
+  content: "";
+}
+
+.neotech-icon-filter:before {
+  content: "";
+}
+
+.neotech-icon-fire1:before {
+  content: "";
+}
+
+.neotech-icon-folder-open:before {
+  content: "";
+}
+
+.neotech-icon-folder:before {
+  content: "";
+}
+
+.neotech-icon-frown:before {
+  content: "";
+}
+
+.neotech-icon-gift:before {
+  content: "";
+}
+
+.neotech-icon-grid-view-line:before {
+  content: "";
+}
+
+.neotech-icon-grip-horizontal:before {
+  content: "";
+}
+
+.neotech-icon-heart-fill:before {
+  content: "";
+}
+
+.neotech-icon-heart:before {
+  content: "";
+}
+
+.neotech-icon-history:before {
+  content: "";
+}
+
+.neotech-icon-home:before {
+  content: "";
+}
+
+.neotech-icon-info-circle:before {
+  content: "";
+}
+
+.neotech-icon-instagram:before {
+  content: "";
+}
+
+.neotech-icon-level-up-alt:before {
+  content: "";
+}
+
+.neotech-icon-list:before {
+  content: "";
+}
+
+.neotech-icon-map-marker-check:before {
+  content: "";
+}
+
+.neotech-icon-meh:before {
+  content: "";
+}
+
+.neotech-icon-minus-circle:before {
+  content: "";
+}
+
+.neotech-icon-minus:before {
+  content: "";
+}
+
+.neotech-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.neotech-icon-money-bill:before {
+  content: "";
+}
+
+.neotech-icon-money:before {
+  content: "";
+}
+
+.neotech-icon-paper-plane:before {
+  content: "";
+}
+
+.neotech-icon-pencil-alt:before {
+  content: "";
+}
+
+.neotech-icon-plus-circle:before {
+  content: "";
+}
+
+.neotech-icon-plus:before {
+  content: "";
+}
+
+.neotech-icon-quickview:before {
+  content: "";
+}
+
+.neotech-icon-random:before {
+  content: "";
+}
+
+.neotech-icon-rating-stroke:before {
+  content: "";
+}
+
+.neotech-icon-rating:before {
+  content: "";
+}
+
+.neotech-icon-repeat:before {
+  content: "";
+}
+
+.neotech-icon-reply-all:before {
+  content: "";
+}
+
+.neotech-icon-reply:before {
+  content: "";
+}
+
+.neotech-icon-search-plus:before {
+  content: "";
+}
+
+.neotech-icon-search:before {
+  content: "";
+}
+
+.neotech-icon-shield-check:before {
+  content: "";
+}
+
+.neotech-icon-shopping-basket:before {
+  content: "";
+}
+
+.neotech-icon-shopping-cart:before {
+  content: "";
+}
+
+.neotech-icon-sign-out-alt:before {
+  content: "";
+}
+
+.neotech-icon-smile:before {
+  content: "";
+}
+
+.neotech-icon-spinner:before {
+  content: "";
+}
+
+.neotech-icon-square:before {
+  content: "";
+}
+
+.neotech-icon-star:before {
+  content: "";
+}
+
+.neotech-icon-store:before {
+  content: "";
+}
+
+.neotech-icon-sync:before {
+  content: "";
+}
+
+.neotech-icon-sync_alt:before {
+  content: "";
+}
+
+.neotech-icon-tachometer-alt:before {
+  content: "";
+}
+
+.neotech-icon-th-large:before {
+  content: "";
+}
+
+.neotech-icon-th-list:before {
+  content: "";
+}
+
+.neotech-icon-thumbtack:before {
+  content: "";
+}
+
+.neotech-icon-ticket:before {
+  content: "";
+}
+
+.neotech-icon-times-circle:before {
+  content: "";
+}
+
+.neotech-icon-times:before {
+  content: "";
+}
+
+.neotech-icon-trophy-alt:before {
+  content: "";
+}
+
+.neotech-icon-truck1:before {
+  content: "";
+}
+
+.neotech-icon-user-headset:before {
+  content: "";
+}
+
+.neotech-icon-user-shield:before {
+  content: "";
+}
+
+.neotech-icon-user:before {
+  content: "";
+}
+
+.neotech-icon-video:before {
+  content: "";
+}
+
+.neotech-icon-wishlist-empty:before {
+  content: "";
+}
+
+.neotech-icon-wishlist:before {
+  content: "";
+}
+

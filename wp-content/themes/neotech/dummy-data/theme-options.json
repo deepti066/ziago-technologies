@@ -1,0 +1,12 @@
+{
+    "neotech_options_blog_sidebar": "right",
+    "neotech_options_blog_style": "standard",
+    "neotech_options_show_top_blog": "no",
+    "neotech_options_woocommerce_archive_sidebar": "right",
+    "woocommerce_catalog_columns": "3",
+    "neotech_options_wocommerce_column_list_view": "1",
+    "neotech_options_woocommerce_product_hover": "left-to-right",
+    "neotech_options_single_product_content_meta": "<p>[hfe_template id=\\'1007\\']<\/p>",
+    "neotech_options_team_bottom_template": "team-single-page",
+    "neotech_options_portfolio_page": "598"
+}
